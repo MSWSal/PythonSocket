@@ -9,7 +9,7 @@ def server_program():
     server_socket = socket.socket()  # instantiate a socket
     server_socket.bind((host, port))  # bind host and port 
 
-    server_socket.listen(2)  #can listen for 2
+    server_socket.listen(3)  #can listen for 3
     print("Waiting for clients...")
 
     connection, address = server_socket.accept()  
